@@ -1,8 +1,4 @@
-
----
-
-````markdown
-# SmartStaff Manager
+# SmartStaff Manager 
 AI-Powered Resource Allocation System for ProU Assessment
 
 SmartStaff Manager is a full-stack application built to solve resource allocation inefficiencies.
@@ -14,35 +10,33 @@ It features an Intelligent Auto-Assign Agent that calculates a Suitability Score
 
 ---
 
-## Tech Stack
-
-- Frontend: React.js (Vite), Tailwind CSS, Axios  
-- Backend: Java (Spring Boot 3.5.8), REST API  
-- Database: MongoDB  
-- Tools: Maven, Lombok  
-
----
-
-## Key Features
-
-- Dashboard: Real-time view of employees and active tasks  
-- AI Recommendation Engine: One-click "Auto-Assign" generates ranked best-fit employees  
-- Task Assignment: Updates employee allocation + task status in database  
-- Modern UI: Clean and fast interface powered by Tailwind CSS  
+##  Tech Stack
+Frontend: React.js (Vite), Tailwind CSS, Axios
+Backend: Java (Spring Boot 3.5.8), REST API
+Database: MongoDB
+Tools: Maven, Lombok
 
 ---
 
-## Setup Instructions
+##  Key Features
+- Dashboard: Real-time view of employees and active tasks
+- AI Recommendation Engine: One-click “Auto-Assign” generates ranked best-fit employees
+- Task Assignment: Updates employee allocation + task status in database
+- Modern UI: Fast and clean interface powered by Tailwind CSS
+
+---
+
+##  Setup Instructions
 
 ### 1. Backend (Spring Boot)
-Prerequisites: Java 17+ and MongoDB (port 27017)
+Prerequisites: Java 17+ and MongoDB (running on port 27017)
 
 ```bash
 cd backend
 ./mvnw spring-boot:run
-````
+```
 
-Server runs at: [http://localhost:8080](http://localhost:8080)
+Server runs at: http://localhost:8080
 
 ---
 
