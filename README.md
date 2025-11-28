@@ -27,36 +27,29 @@ Key Features
 ------------------------------------------------------------
 
 Setup Instructions
-
 1. Backend (Spring Boot)
 Prerequisites: Java 17+ and MongoDB (running on port 27017)
-
 cd backend
 ./mvnw spring-boot:run
-
 Server runs at: http://localhost:8080
 
 ------------------------------------------------------------
 
 2. Frontend (React)
 Prerequisites: Node.js installed
-
 cd frontend
 npm install
 npm run dev
-
 Client runs at: http://localhost:5173
 
 ------------------------------------------------------------
 
 API Endpoints
-Method | Endpoint | Description
-GET    | /api/employees | List all employees
-GET    | /api/tasks | List all tasks
-POST   | /api/tasks/recommendations | Ranked recommendations for task
-PUT    | /api/tasks/{id}/assign/{empId} | Assign task to employee
+Method	Endpoint	Description
+GET	/api/employees	List all employees
+GET	/api/tasks	List all tasks
+POST	/api/tasks/recommendations	Ranked recommendations for task
+PUT	/api/tasks/{id}/assign/{empId}	Assign task to employee
 
 ------------------------------------------------------------
-
-
 
