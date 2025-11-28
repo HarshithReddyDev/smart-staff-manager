@@ -1,16 +1,34 @@
-# React + Vite
+# SmartStaff Manager 🤖
+> AI-Powered Resource Allocation System for ProU Assessment.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**SmartStaff Manager** is a Full-stack application designed to solve resource allocation inefficiencies. It features an **Intelligent Auto-Assign Agent** that calculates a "Suitability Score" (0-100%) for every employee against a specific task based on:
+1.  **Skill Matching** (Weighted 50%)
+2.  **Current Workload** (Weighted 30%)
+3.  **Performance Rating** (Weighted 20%)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
+* **Frontend:** React.js (Vite), Tailwind CSS, Axios
+* **Backend:** Java (Spring Boot 3.5.8), REST API
+* **Database:** MongoDB
+* **Tools:** Maven, Lombok
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Key Features
+* **Dashboard:** Real-time view of Employees and Active Tasks.
+* **AI Recommendation Engine:** Click "Auto-Assign" to see a ranked list of best-fit candidates with calculated scores.
+* **Task Assignment:** One-click assignment that updates the database and task status.
+* **Reactive UI:** Clean, modern interface using Tailwind CSS.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Setup Instructions
+
+### 1. Backend (Spring Boot)
+Prerequisites: Java 17+ and MongoDB running locally on port 27017.
+
+```bash
+cd backend
+./mvnw spring-boot:run
