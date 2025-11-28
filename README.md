@@ -4,7 +4,6 @@
 > AI-Powered Resource Allocation System for ProU Assessment.
 
 **SmartStaff Manager** is a Full-stack application designed to solve resource allocation inefficiencies. It features an **Intelligent Auto-Assign Agent** that calculates a "Suitability Score" (0-100%) for every employee against a specific task based on:
-
 1.  **Skill Matching** (Weighted 50%)
 2.  **Current Workload** (Weighted 30%)
 3.  **Performance Rating** (Weighted 20%)
@@ -12,7 +11,6 @@
 ---
 
 ## 🚀 Tech Stack
-
 * **Frontend:** React.js (Vite), Tailwind CSS, Axios
 * **Backend:** Java (Spring Boot 3.5.8), REST API
 * **Database:** MongoDB
@@ -21,7 +19,6 @@
 ---
 
 ## ✨ Key Features
-
 * **Dashboard:** Real-time view of Employees and Active Tasks.
 * **AI Recommendation Engine:** Click "Auto-Assign" to see a ranked list of best-fit candidates with calculated scores.
 * **Task Assignment:** One-click assignment that updates the database and task status.
@@ -32,7 +29,7 @@
 ## 🛠️ Setup Instructions
 
 ### 1. Backend (Spring Boot)
-Prerequisites: Java 17+ and MongoDB running locally on port 27017.
+Prerequisites: Java 17+ and MongoDB (Port 27017).
 
 ```bash
 cd backend
@@ -68,4 +65,5 @@ npm run dev
 
 **Author:** Bonkur Harshith Reddy
 
-````
+```
+```
