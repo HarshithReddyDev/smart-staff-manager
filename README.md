@@ -1,3 +1,5 @@
+
+````markdown
 # SmartStaff Manager 🤖
 > AI-Powered Resource Allocation System for ProU Assessment.
 
@@ -32,3 +34,35 @@ Prerequisites: Java 17+ and MongoDB running locally on port 27017.
 ```bash
 cd backend
 ./mvnw spring-boot:run
+````
+
+*Server starts at: `http://localhost:8080`*
+
+### 2\. Frontend (React)
+
+Prerequisites: Node.js installed.
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+*Client starts at: `http://localhost:5173`*
+
+-----
+
+## 📸 API Endpoints
+
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| `GET` | `/api/employees` | List all employees |
+| `GET` | `/api/tasks` | List all tasks |
+| `POST` | `/api/tasks/recommendations` | **(AI)** Get ranked suggestions for a task |
+| `PUT` | `/api/tasks/{id}/assign/{empId}` | Assign task to employee |
+
+-----
+
+**Author:** Bonkur Harshith Reddy
+
+```
