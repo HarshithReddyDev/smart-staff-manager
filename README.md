@@ -65,3 +65,18 @@ Client runs at: [http://localhost:5173](http://localhost:5173)
 
 ---
 
+##  Project Screenshots
+
+### 1. Interactive Dashboard
+*Real-time view of employee availability and task tracking.*
+![Dashboard](./screenshots/dashboard.png)
+
+### 2. AI Auto-Assign Agent
+*The intelligent engine ranking candidates based on Skills, Load, and Rating.*
+![AI Result](./screenshots/ai-result.png)
+
+### 3. Task Assigned (Final State)
+*The system updates the database, changes status to "In Progress," and assigns the employee.*
+![Task Assigned](./screenshots/assignment-success.png)
+
+---
